@@ -1,0 +1,11 @@
+body, html {
+  display: flex;
+  height: 100%;
+  margin: 0;
+}
+canvas {
+  /* width:200;
+  height: 200; */
+  background-color: gray;
+  border: 1px solid;
+}

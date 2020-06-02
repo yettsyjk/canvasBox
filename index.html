@@ -8,7 +8,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.7/paper-full.js"></script>
    <link
      rel="stylesheet"
-     href="style.css"
+     href="css/style.css"
      <!--
      Define
      inlined
@@ -24,9 +24,9 @@
 
 
    <script type="text/paperscript" canvas="myCanvas">
-   let randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
-   let count = 0
-   let point = new Path.Rectangle({
+   var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+   var count = 0
+   var point = new Path.Rectangle({
      point: [20,20],
      size: [20,20],
      strokeColor: randomColor
